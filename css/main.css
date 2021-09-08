@@ -40,11 +40,31 @@ body {
 }
 /* end of navbar */
 /* banner*/
+.banner-info{
+  min-height: calc(100vh - 101px);
+  background-color: var(--mainGrey);
+  position: relative;
+}
 .banner-info__footer{
   background-color: var(--mainGreen);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
-.banner-img__footer{
+.banner-img{
+  min-height: clac(100vh - 101px);
+  background: url(../img/bannerBcg.jpeg) center/cover fixed no-repeat;
+  position: relative;
+}
+.banner-img__footer {
   background-color: var(--mainDark);
-  color: var(--mainGreen);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  height: 104px;
+  display: flex;
+  align-items: center;
 }
 /* end of banner */

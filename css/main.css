@@ -49,6 +49,15 @@ body {
 .navbar {
   background-color: var(--mainDark);
 }
+.navbar ul li a{
+  padding: 12px 40px;
+  transition: all 500ms ease-in-out;
+}
+.navbar ul li a:hover{
+  color: var(--mainWhite) ;
+  background-color: #0af;
+  border-radius: .4rem 1.3rem;
+}
 .phone-icon{
   color:var(--mainGreen);
   border: 0.2rem solid var(--mainGreen);
@@ -89,6 +98,9 @@ body {
 .img-container{
   position: relative;
 }
+.about-info-header{
+  text-transform: uppercase;
+}
 .featured-icons{
   position: absolute;
   bottom: 0;
@@ -111,3 +123,25 @@ body {
   border-left: 0.5rem solid var(--mainGreen);
 }
 /* end of about section */
+/* featured */
+.featured{
+  background: var(--mainGrey);
+}
+/* end of featured */
+
+/* contact section */
+.contact{
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+.contact-btn{
+  background: transparent;
+  border: 0.1rem solid var(--mainWhite);
+  color: var(--mainWhite);
+  transition: all 500ms ease-in-out;
+}
+.contact-btn:hover{
+  background: var(--mainWhite);
+  color: var(--mainGreen);
+}
+/* end of contact section */

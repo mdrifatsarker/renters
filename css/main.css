@@ -39,3 +39,12 @@ body {
   border-radius: 50%;
 }
 /* end of navbar */
+/* banner*/
+.banner-info__footer{
+  background-color: var(--mainGreen);
+}
+.banner-img__footer{
+  background-color: var(--mainDark);
+  color: var(--mainGreen);
+}
+/* end of banner */
